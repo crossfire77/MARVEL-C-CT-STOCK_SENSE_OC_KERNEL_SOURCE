@@ -1,5 +1,4 @@
 
-
 Linux kernel release 2.6.xx <http://kernel.org/>
 
 HTC WILDFIRE S (MARVEL/MARVELC/MARVELCT) KERNEL SOURCE 
@@ -75,7 +74,7 @@ or
 
 5) cp arch/arm/boot/zImage workspace  ( it will copy zImage to workspace directory ;zImage=kernel )
 
-6) find . -name '*ko' -exec cp '{}' senseoc \; ( it will copy modules to workspace direcotory )
+6) find . -name '*ko' -exec cp '{}' workspace \; ( it will copy modules to workspace direcotory )
 
 7) Done.
 
@@ -84,7 +83,7 @@ FOR FLASHING KERNEL:
 --------------------
 
 USE ANY KERNEL UPDATER METHOD BY KOUSH.
-GO HERE : 
+GO HERE : https://docs.google.com/file/d/0B7vC1WrLBWD-NXdXNnlqeHByR3M/edit?usp=sharing
 
 
 ---------
@@ -95,5 +94,12 @@ CREDITS :
 HTC FOR SOURCE
 ANDROID TOOLCHAIN
 
+
+
+-----------
+MY THREAD :
+-----------
+
+http://forum.xda-developers.com/showthread.php?t=2208356
 
 
